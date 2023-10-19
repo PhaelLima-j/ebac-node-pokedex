@@ -31,7 +31,7 @@ app.use((_req, _res, next) => {
 });
 
 // tratativa de error
-app.use((err, _req,res, _next) => {
+app.use((err, _req, res, _next) => {
     res.status(err.status || 500);
     res.render('paginas/erro', {
         mensagem: err.message,
