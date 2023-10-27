@@ -36,12 +36,7 @@ const Pokemon = new Schema({
     estatisticas: {
         type: Object,
         required: true,
-    },
-    jogos: {
-        type: String,
-        required: true,
     }
-
 });
 
 module.exports = Pokemon;
