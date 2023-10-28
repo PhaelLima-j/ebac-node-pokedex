@@ -39,7 +39,7 @@ app.use((err, _req, res, _next) => {
     });
 });
 
-const porta = 3005;
+const porta = 3002;
 app.listen(porta, () => {
     connect();
 
