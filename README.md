@@ -1,1 +1,1 @@
-# ebac-node-pokedex
+#node-pokedex
