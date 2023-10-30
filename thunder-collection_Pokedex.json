@@ -1,0 +1,37 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Pokedex",
+    "dateExported": "2023-10-28T20:16:04.915Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "34c7e180-9863-45bc-9b02-1615d394711a",
+            "colId": "f7d5e21e-1d77-46fd-9ca3-e1a6022d64f3",
+            "containerId": "",
+            "name": "Status Check",
+            "url": "http://localhost:3002/api/status",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-10-28T20:13:22.825Z",
+            "modified": "2023-10-28T20:13:54.490Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "da506ff7-75fe-4186-8c29-3ecf6b45d5dd",
+            "colId": "f7d5e21e-1d77-46fd-9ca3-e1a6022d64f3",
+            "containerId": "",
+            "name": "Captura de Pokemon",
+            "url": "http://localhost:3002/api/captura/11",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-28T20:14:09.410Z",
+            "modified": "2023-10-28T20:15:41.543Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
