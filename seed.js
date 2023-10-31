@@ -22,7 +22,7 @@ const populaBancoDeDados = async () => {
             'special-defense': 50,
             speed: 90
         },
-        jogos: [{
+        jogos: {
             red: 25,
             blue: 25,
             yellow: 25,
@@ -43,7 +43,7 @@ const populaBancoDeDados = async () => {
             white: 25,
             'black-2': 25,
             'white-2': 25
-        }],
+        },
     });
 
     await Pokemon.create({
@@ -61,7 +61,7 @@ const populaBancoDeDados = async () => {
             'special-defense': 70,
             speed: 90
         },
-        jogos: [{
+        jogos: {
             diamond: 448,
             pearl: 448,
             platinum: 448,
@@ -71,7 +71,7 @@ const populaBancoDeDados = async () => {
             white: 448,
             'black-2': 448,
             'white-2': 448
-        }],
+        },
     });
 
     await Pokemon.create({
@@ -89,12 +89,12 @@ const populaBancoDeDados = async () => {
             'special-defense': 60,
             speed: 103
         },
-        jogos: [{
+        jogos: {
             black: 587,
             white: 587,
             'black-2': 587,
             'white-2': 587
-        }],
+        },
     });
 
     await Pokemon.create({
@@ -112,7 +112,7 @@ const populaBancoDeDados = async () => {
             'special-defense': 50,
             speed: 65
         },
-        jogos: [{
+        jogos: {
             gold: 155,
             silver: 155,
             crystal: 155,
@@ -130,7 +130,7 @@ const populaBancoDeDados = async () => {
             white: 155,
             'black-2': 155,
             'white-2': 155
-        }],
+        },
     });
 
     await Pokemon.create({
@@ -148,12 +148,12 @@ const populaBancoDeDados = async () => {
             'special-defense': 60,
             speed: 83
         },
-        jogos: [{
+        jogos: {
             black: 496,
             white: 496,
             'black-2': 496,
             'white-2': 496
-        }],
+        },
     });
 
     await Pokemon.create({
@@ -171,12 +171,12 @@ const populaBancoDeDados = async () => {
             'special-defense': 85,
             speed: 50
         },
-        jogos: [{
+        jogos: {
             black: 600,
             white: 600,
             'black-2': 600,
             'white-2': 600
-        }],
+        },
     });
 
     await Pokemon.create({
@@ -194,12 +194,12 @@ const populaBancoDeDados = async () => {
             'special-defense': 65,
             speed: 30
         },
-        jogos: [{
+        jogos: {
             black: 562,
             white: 562,
             'black-2': 562,
             'white-2': 562
-        }],
+        },
     });
 
     await Pokemon.create({
@@ -217,12 +217,12 @@ const populaBancoDeDados = async () => {
             'special-defense': 39,
             speed: 42
         },
-        jogos: [{
+        jogos: {
             black: 504,
             white: 504,
             'black-2': 504,
             'white-2': 504
-        }],
+        },
     });
 
     await Pokemon.create({
@@ -240,12 +240,12 @@ const populaBancoDeDados = async () => {
             'special-defense': 100,
             speed: 100
         },
-        jogos: [{
+        jogos: {
             black: 494,
             white: 494,
             'black-2': 494,
             'white-2': 494
-        }],
+        },
     });
 
     await Pokemon.create({
@@ -263,12 +263,12 @@ const populaBancoDeDados = async () => {
             'special-defense': 60,
             speed: 60
         },
-        jogos: [{
+        jogos: {
             black: 502,
             white: 502,
             'black-2': 502,
             'white-2': 502
-        }],
+        },
     });
 
     await mongoose.disconnect();
