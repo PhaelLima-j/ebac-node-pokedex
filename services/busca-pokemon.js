@@ -16,7 +16,7 @@ const buscaInfoPokemon = (pokeId) => {
             const imagem = data.sprites.other['official-artwork'].front_default;
             const ataques = data.abilities.map(a => a.ability.name).join(', ');
             const jogos = [];
-            data.game_indices.map((jogo) => jogos.push(jogo.version.name));
+            data.game_indices.map((game) => jogos.push(game.version.name));
             
             const estatisticas = {};
 
