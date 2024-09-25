@@ -12,7 +12,7 @@ const { connect } = require('./models');
 require('./routes/auth/');
 const pokemonsRouter = require('./routes/pokemons');
 const batalhaRouter = require('./routes/batalha');
-const apiRouter = require('./routes/api');
+const apiRouter = require('./routes/api/');
 const autenticacaoRouter = require('./routes/auth');
 const homeRouter = require('./routes/home');
 const { checaAutenticado } = require('./routes/middlewares/checa-autenticacao');
